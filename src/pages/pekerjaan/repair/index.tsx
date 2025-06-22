@@ -33,7 +33,7 @@ const WorkOrderDetailPage = () => {
   const query = router.query;
 
   const workOrder: WorkOrderDetail = {
-    id: query["wo-id"]!,
+    id: "TESTETSTES",
     workType: "repair",
     workOrderDate: "2023-06-25",
     requestor: {
