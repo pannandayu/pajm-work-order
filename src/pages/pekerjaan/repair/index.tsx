@@ -244,7 +244,7 @@ const WorkOrderDetailPage = () => {
               <div>
                 <h2 className="text-lg font-semibold text-[#211F60] mb-2">
                   Detail{" "}
-                  {workOrder.status === "approved"
+                  {workOrder.status === "disetujui"
                     ? "Persetujuan"
                     : "Penolakan"}{" "}
                 </h2>
